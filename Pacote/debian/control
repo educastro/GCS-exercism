@@ -1,0 +1,12 @@
+Source: exercism
+Maintainer: Eduardo Castro <eduardocastro91@gmail.com>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9)
+
+Package: exercism
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Software that helps people who wants to learn how to develop software.
+ Exercism offers support to more than 40 languages, including all the most commons ones like Java, Ruby, Python, Swift, C, etc. The user receives a random challenge according to his capacity level and has to develop a software that makes all the tests (yes, Exercism is TDD based!) passes.
